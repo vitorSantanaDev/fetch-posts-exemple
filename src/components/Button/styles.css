@@ -1,0 +1,23 @@
+.buttonContainer {
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.button {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  padding: 16px 32px;
+  background-color: #fb1;
+  transition: ease-in-out 0.3s;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  background-color: #fea;
+}
