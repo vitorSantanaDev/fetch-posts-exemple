@@ -1,0 +1,13 @@
+.textInput {
+  width: 100%;
+  font-size: 32px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: ease-in-out .3s;
+}
+
+.textInput:hover, .textInput:focus {
+  border: 1px solid #fea;
+}
