@@ -8,7 +8,7 @@ import Input from '../../components/Input';
 
 const Home = () => {
   const [page, setPage] = useState(0);
-  const [postsPerPage] = useState(3);
+  const [postsPerPage] = useState(4);
   const [allPosts, setAllPosts] = useState([]);
   const [posts, setPosts] = useState([]);
   const [searchValue, setSearchValue] = useState('');
