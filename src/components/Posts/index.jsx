@@ -4,15 +4,13 @@ import PostCard from '../PostCard';
 import Types from 'prop-types';
 
 const Posts = ({ posts }) => {
-  if (posts)
-    return (
-      <div className="posts">
-        {posts.map((post) => (
-          <PostCard key={post.id} cover={post.cover} title={post.title} body={post.body} />
-        ))}
-      </div>
-    );
-  else return null;
+  return (
+    <div className="posts">
+      {posts.map((post) => (
+        <PostCard key={post.id} cover={post.cover} title={post.title} body={post.body} />
+      ))}
+    </div>
+  );
 };
 
 Posts.propTypes = {
