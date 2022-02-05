@@ -10,6 +10,11 @@ describe('<Posts />', () => {
     expect(screen.getAllByText(/body/i)).toHaveLength(3);
   });
 
+  it('should not render Posts', () => {
+    render(<Posts posts={[]} />);
+    expect(screen.queryAllByRole('heading', { name: /title/i }));
+  });
+
   it('should match snapshot', () => {
     const { container } = render(<Posts posts={postsProps} />);
     expect(container.firstChild).toMatchSnapshot();
