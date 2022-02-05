@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button/> should match snapshot 1`] = `
+<div
+  class="buttonContainer"
+>
+  <button
+    class="button"
+  >
+    Load More Posts
+  </button>
+</div>
+`;
