@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Container /> should match snapshot 1`] = `
+<div
+  class="container"
+>
+  <h1>
+    Children
+  </h1>
+</div>
+`;
