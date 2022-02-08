@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should match snapshopt 1`] = `
+<div
+  class="container"
+>
+  <div
+    class="searchContainer"
+  >
+    <input
+      class="textInput"
+      placeholder="Type your search"
+      type="search"
+      value=""
+    />
+  </div>
+  <div
+    class="posts"
+  >
+    <div
+      class="post"
+    >
+      <img
+        alt="Title1 one!"
+        src="img1.jpg"
+      />
+      <div
+        class="postContent"
+      >
+        <h2>
+          Title1 one!
+        </h2>
+        <p>
+          Body post one, more reading posts.
+        </p>
+      </div>
+    </div>
+    <div
+      class="post"
+    >
+      <img
+        alt="Title2 two!"
+        src="img2.jpg"
+      />
+      <div
+        class="postContent"
+      >
+        <h2>
+          Title2 two!
+        </h2>
+        <p>
+          Body post two, more reading posts.
+        </p>
+      </div>
+    </div>
+    <div
+      class="post"
+    >
+      <img
+        alt="Title3 three!"
+        src="img3.jpg"
+      />
+      <div
+        class="postContent"
+      >
+        <h2>
+          Title3 three!
+        </h2>
+        <p>
+          Body post three, more reading posts.
+        </p>
+      </div>
+    </div>
+    <div
+      class="post"
+    >
+      <img
+        alt="Title4 for!"
+        src="img4.jpg"
+      />
+      <div
+        class="postContent"
+      >
+        <h2>
+          Title4 for!
+        </h2>
+        <p>
+          Body post for, more reading posts.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="buttonContainer"
+  >
+    <button
+      class="button"
+    >
+      Load More Posts
+    </button>
+  </div>
+</div>
+`;
